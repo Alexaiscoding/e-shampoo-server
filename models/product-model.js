@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const productSchema = new Schema(
 
-   { productTitle: String,
+   { productName: String,
 
     ref: String,
 
@@ -18,12 +18,12 @@ const productSchema = new Schema(
     category: {
     type: String,
 
-            enum:['secs', 'normaux', 'gras',‘mixtes’]       
+            enum:['secs', 'normaux', 'gras', ‘mixtes’]       
     },
 
 Type: {type: String,
 
-enum:['lavande', 'Romarin', 'Framboise', ‘Vanille’]     },
+enum:['amande douce', 'bambou', 'figue/coco', ‘mangue/coriandre’]     },
 id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }],
 
     },

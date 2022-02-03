@@ -13,7 +13,8 @@ const reviewSchema = new Schema(
 
     product: { type: Schema.Types.ObjectId, ref: "product"},
 
-rating: Number
+rating: Number,
+date:Date,
 
     }
 

@@ -23,7 +23,8 @@ country:String,
 
 phone:Number,
 
-role:String,
+role:{type: String, default: 'user'},
+
 
 },      
 

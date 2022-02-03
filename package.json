@@ -21,7 +21,6 @@
     "seed:all": "npm run seed:product && npm run seed:reviews && npm run seed:user"
   },
 
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alexaiscoding/e-shampoo-server.git"
